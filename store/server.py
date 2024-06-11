@@ -7,7 +7,7 @@ from store.builder import Builder
 from store.portrayal import portrayCell
 from store.model import Shop
 
-with open("shop2.json") as file:
+with open("scenario1.json") as file:
     specification = json.load(file)
     builder = Builder(specification)
 

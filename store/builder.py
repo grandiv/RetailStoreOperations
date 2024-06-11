@@ -7,7 +7,6 @@ from store.actors.shelf import Shelf
 
 
 class Builder:
-
     def __init__(self, data):
         self.data = data
 
@@ -26,14 +25,14 @@ class Builder:
         return self.data["c_probabilities"]
 
     def get_sim_length(self):
-        return min(self.data["length"], 100)
+        return self.data["length"]
 
     def get_client_count(self):
-        return min(self.data["client_count"], 50) if "client_count" in self.data else 50
-
+        return self.data["client_count"] if "client_count" in self.data else 100
+    
     def get_client_distribution(self):
         if not "client_distribution" in self.data:
-            return 1000.0, 350.0
+            return 100.0, 35.0
         else:
             dist = self.data["client_distribution"]
             return dist["mean"], dist["variance"]

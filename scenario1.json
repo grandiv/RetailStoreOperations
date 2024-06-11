@@ -3,11 +3,11 @@
   "height": 20,
   "categories": ["m", "n", "p", "s", "c", "k", "h", "b", "g", "a", "d", "f"],
   "c_probabilities": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-  "length": 10800,
-  "client_count": 500,
+  "length": 1080,
+  "client_count": 100,
   "client_distribution": {
-    "mean": 5400,
-    "variance": 3000
+    "mean": 540,
+    "variance": 300
   },
   "entrances": [
     { "x": 1, "y": 19, "speed": 1 },

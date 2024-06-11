@@ -1,0 +1,4 @@
+---NEEDED ITEMS REPORT---
+Average total needed items: 32.02962962962963
+Median total needed items: 32.0
+Standard deviation of total needed items: 17.04908631884038
